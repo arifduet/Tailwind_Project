@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <title>Sign In</title>
+
+    <!-- All Plugins CSS -->
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/plugins/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/plugins/aos.css" />
+    <link rel="stylesheet" href="./assets/css/plugins/nice-select.min.css" />
+    <link rel="stylesheet" href="./assets/css/plugins/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./assets/css/plugins/slick.css" />
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./assets/css/helper.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="signIn.css" />
+  </head>
+
+  <body>
+    <div class="sign-in">
+      <div class="frame">
+        <div class="left">
+          <div class="top">
+            <div class="heading">Welcome back!</div>
+            <div class="details">
+              Enter your Credentials to access your account
+            </div>
+          </div>
+          <div class="container">
+            <div class="login-form">
+              <div class="input-group1">
+                <div class="input-group1a">
+                  <label for="email">Email*</label>
+                </div>
+                <input
+                  class="input-group1b"
+                  type="email"
+                  id="placeholder"
+                  placeholder="Enter your email"
+                />
+              </div>
+
+              <div class="input-group2">
+                <div class="input-group2a">
+                  <div class="password"><label>Password*</label></div>
+                  <div class="forgot-password">
+                    <a href="forgotPassword.html">Forgot Password</a>
+                  </div>
+                </div>
+                <!-- <div class="password-label">
+                  <label for="password">Password*</label>
+                  <a href="#" class="forgot-password">Forgot Password</a>
+                </div> -->
+                <div style="width: 100%; position: relative">
+                  <input
+                    style="width: 100%"
+                    class="password-input"
+                    type="password"
+                    id="placeholder"
+                    placeholder="Password"
+                  />
+                  <img
+                    style="
+                      position: absolute;
+                      top: 50%;
+                      transform: translateY(-50%);
+                      right: 25px;
+                    "
+                    class="toggle-password"
+                    src="assets/images/Frame.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <div class="remember-me">
+                <input type="checkbox" id="remember" />
+                <label for="remember">Remember Me</label>
+              </div>
+            </div>
+
+            <!-- <button class="sign-in-button">Sign in</button> -->
+            <div class="sign-in-button">
+              <a href="main.html"><p class="text">Sign in</p></a>
+            </div>
+
+            <div class="divider">
+              <hr />
+              <span class="or">Or</span>
+              <hr />
+            </div>
+
+            <div class="social-login">
+              <a href="https://www.google.com/" target="_blank">
+                <button class="google-login">
+                  <div class="size-login">
+                    <img
+                      src="assets/images/icons8-google 1.png"
+                      width="24px"
+                      height="24px"
+                    />
+                    <p class="p1">Sign in with Google</p>
+                  </div>
+                </button>
+              </a>
+
+              <a href="https://www.apple.com/" target="_blank">
+                <button class="apple-login">
+                  <div class="size-login">
+                    <img
+                      src="assets/images/icons8-apple-logo 1.png"
+                      width="24px"
+                      height="24px"
+                    />
+                    <p class="p1">Sign in with Apple</p>
+                  </div>
+                </button>
+              </a>
+            </div>
+            <p class="signup-link">
+              Don't have an account? <a href="signUp.html">Sign Up</a>
+            </p>
+          </div>
+        </div>
+        <div class="right"></div>
+      </div>
+    </div>
+  </body>
+</html>
